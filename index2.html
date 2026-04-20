@@ -364,6 +364,20 @@ a.collab-card{
   text-decoration:none;color:inherit;display:block;
 }
 a.collab-card:hover{background:#1c1710;border-color:var(--gold-soft);}
+.collab-links-row{
+  display:flex;gap:12px;margin-top:16px;
+}
+.collab-link-btn{
+  font-family:'Courier Prime',monospace;
+  font-size:.58rem;letter-spacing:.18em;text-transform:uppercase;
+  color:var(--gold);text-decoration:none;
+  border:1px solid var(--gold-soft);
+  padding:6px 12px;
+  transition:color .3s,border-color .3s,background .3s;
+}
+.collab-link-btn:hover{
+  color:var(--bg);background:var(--gold);border-color:var(--gold);
+}
 .collab-link{
   margin-top:16px;
   font-family:'Courier Prime',monospace;
@@ -372,7 +386,21 @@ a.collab-card:hover{background:#1c1710;border-color:var(--gold-soft);}
   opacity:0;transform:translateY(4px);
   transition:opacity .35s,transform .35s,color .3s;
 }
-a.collab-card:hover .collab-link{opacity:1;transform:translateY(0);color:var(--gold);}
+a.collab-card:hover .collab-links-row{
+  display:flex;gap:12px;margin-top:16px;
+}
+.collab-link-btn{
+  font-family:'Courier Prime',monospace;
+  font-size:.58rem;letter-spacing:.18em;text-transform:uppercase;
+  color:var(--gold);text-decoration:none;
+  border:1px solid var(--gold-soft);
+  padding:6px 12px;
+  transition:color .3s,border-color .3s,background .3s;
+}
+.collab-link-btn:hover{
+  color:var(--bg);background:var(--gold);border-color:var(--gold);
+}
+.collab-link{opacity:1;transform:translateY(0);color:var(--gold);}
 .collab-card--nolink{cursor:default;}
 .collab-note{
   margin-top:16px;padding-top:14px;
@@ -525,16 +553,80 @@ a.collab-card:hover .collab-link{opacity:1;transform:translateY(0);color:var(--g
       </div>
       <div class="collab-link">View Project ↗</div>
     </a>
-    <a class="collab-card" href="http://xhslink.com/o/SqVmvIEf0r" target="_blank" rel="noopener">
-      <div class="collab-artist">Didi Ouyang<br>Gentle Monster VLOG</div>
+    <a class="collab-card" href="https://www.instagram.com/reel/DWOfBwRiWTD/?igsh=cXJjbGM1ZnU2NHE5" target="_blank" rel="noopener">
+      <div class="collab-artist">Shuling<br>× DR.WU</div>
       <div class="collab-roles">
-        <span class="collab-role">Creative Concept</span>
         <span class="collab-role">Director</span>
         <span class="collab-role">Videographer</span>
         <span class="collab-role">Editing</span>
       </div>
       <div class="collab-link">View Project ↗</div>
     </a>
+    <a class="collab-card" href="https://www.instagram.com/reel/DPPDILxAdO7/?igsh=MXR6YWJ4cnZoeWlmOA%3D%3D" target="_blank" rel="noopener">
+      <div class="collab-artist">Nana Ouyang<br>× LV</div>
+      <div class="collab-roles">
+        <span class="collab-role">Director</span>
+        <span class="collab-role">Videographer</span>
+        <span class="collab-role">Editing</span>
+      </div>
+      <div class="collab-link">View Project ↗</div>
+    </a>
+    <div class="collab-card">
+      <div class="collab-artist">Dizzy Dizzo<br>Music Video Content</div>
+      <div class="collab-roles">
+        <span class="collab-role">Director</span>
+        <span class="collab-role">Videographer</span>
+        <span class="collab-role">Editing</span>
+      </div>
+      <div class="collab-links-row">
+        <a class="collab-link-btn" href="https://www.instagram.com/reel/DOkZuQikx8B/?igsh=NHIzbWs1engxcDdn" target="_blank" rel="noopener">Video 1 ↗</a>
+        <a class="collab-link-btn" href="https://www.instagram.com/reel/DMA0xR0S37J/?igsh=MXB4Mm00ZjdkOTlyZQ==" target="_blank" rel="noopener">Video 2 ↗</a>
+      </div>
+    </div>
+    <div class="collab-card">
+      <div class="collab-artist">Dizzy Dizzo<br>Kitchen Series</div>
+      <div class="collab-roles">
+        <span class="collab-role">Director</span>
+        <span class="collab-role">Videographer</span>
+        <span class="collab-role">Editing</span>
+      </div>
+      <div class="collab-links-row">
+        <a class="collab-link-btn" href="https://www.instagram.com/reel/DVqiBTfk5le/?igsh=cmp2cXFuOWdweHc5" target="_blank" rel="noopener">Episode 1 ↗</a>
+        <a class="collab-link-btn" href="https://www.instagram.com/reel/DRqrKl9E7ZO/?igsh=azA1OWNubXRsN3c=" target="_blank" rel="noopener">Episode 2 ↗</a>
+      </div>
+    </div>
+    <a class="collab-card" href="https://youtu.be/aH4uG8VgDqg?si=tO0VC_buGweUpm3Z" target="_blank" rel="noopener">
+      <div class="collab-artist">Nana Ouyang<br>《The Best For You》Lyrics Video</div>
+      <div class="collab-roles">
+        <span class="collab-role">Creative Concept</span>
+        <span class="collab-role">Director</span>
+        <span class="collab-role">Editing</span>
+      </div>
+      <div class="collab-link">Watch ↗</div>
+    </a>
+    <a class="collab-card" href="https://youtu.be/iGALA0WcS8Y?si=gvIltDNLNizzo125" target="_blank" rel="noopener">
+      <div class="collab-artist">Nana Ouyang<br>《Goodbye》Lyrics Video</div>
+      <div class="collab-roles">
+        <span class="collab-role">Creative Concept</span>
+        <span class="collab-role">Director</span>
+        <span class="collab-role">Editing</span>
+      </div>
+      <div class="collab-link">Watch ↗</div>
+    </a>
+    <a class="collab-card" href="https://www.instagram.com/p/CRWS0_whKzR/?igsh=MWhwM2NycDhkaG95Mg==" target="_blank" rel="noopener">
+      <div class="collab-artist">Nana Ouyang<br>Album «藏» Visual Digital Promo Series Visual</div>
+      <div class="collab-roles">
+        <span class="collab-role">Visual Direction</span>
+      </div>
+      <div class="collab-link">View Project ↗</div>
+    </a>
+  </div>
+
+  <!-- VLOG Series -->
+  <div class="sub-head reveal" style="margin-top:64px;">
+    <span class="sub-label">VLOG Series</span>
+  </div>
+  <div class="collab-grid reveal">
     <a class="collab-card" href="https://youtube.com/playlist?list=PL54r6QcJQwOB2-qy-jdjvjGUn6xawV3Eq&si=1_ymvCNwIx3_ts2X" target="_blank" rel="noopener">
       <div class="collab-artist">Nana Ouyang<br>VLOG Full Series</div>
       <div class="collab-roles">
@@ -555,110 +647,70 @@ a.collab-card:hover .collab-link{opacity:1;transform:translateY(0);color:var(--g
       <div class="collab-note">2022年，疫情剛結束，大家仍處於壓力之下，因此我策劃了全新單元「NANA TV」，以療癒舒壓為導向、較慢的節奏，讓內容圍繞娜娜發散，希望觀眾能從中找到一絲平靜。<br><br><em>"It has been on my wish lists, Welcome a new beginning."</em><br>「拋下熟悉的日常，帶著勇氣，如果可以在現實生活中短暫冒險。」</div>
       <div class="collab-link">Watch ↗</div>
     </a>
-    <a class="collab-card" href="https://youtu.be/aH4uG8VgDqg?si=tO0VC_buGweUpm3Z" target="_blank" rel="noopener">
-      <div class="collab-artist">Nana Ouyang<br>《The Best For You》Lyrics Video</div>
+    <a class="collab-card" href="https://www.xiaohongshu.com/discovery/item/68cc1e49000000000e00d27f?app_platform=ios&app_version=9.22.1&share_from_user_hidden=true&xsec_source=app_share&type=video&xsec_token=CB36B1g1MEWYS10FaUASVaiHo_6tGQmAsYdgiG3iVY2P4=&author_share=1&xhsshare=CopyLink&shareRedId=N0czQUk7OkJLP0ZFO0ozN0hGOk03RjlL&apptime=1774340565&share_id=2ba37cb1faef4b758f83a6308f84efd6" target="_blank" rel="noopener">
+      <div class="collab-artist">Didi Ouyang<br>× MK VLOG</div>
       <div class="collab-roles">
-        <span class="collab-role">Creative Concept</span>
-        <span class="collab-role">Director</span>
         <span class="collab-role">Editing</span>
       </div>
       <div class="collab-link">Watch ↗</div>
     </a>
-    <a class="collab-card" href="https://youtu.be/iGALA0WcS8Y?si=gvIltDNLNizzo125" target="_blank" rel="noopener">
-      <div class="collab-artist">Nana Ouyang<br>《Goodbye》Lyrics Video</div>
+    <a class="collab-card" href="https://www.xiaohongshu.com/discovery/item/69b67d89000000001e00eeea?app_platform=ios&app_version=9.22.1&share_from_user_hidden=true&xsec_source=app_share&type=video&xsec_token=CB96OxHxgVLD2JsqXI5P1NJay2eEtSfdHi09Lloj2i1nQ=&author_share=1&xhsshare=CopyLink&shareRedId=N0czQUk7OkJLP0ZFO0ozN0hGOk03RjlL&apptime=1774340078&share_id=03afee6781b0480f927f66323f3a021d" target="_blank" rel="noopener">
+      <div class="collab-artist">Didi Ouyang<br>× F1 VLOG</div>
       <div class="collab-roles">
-        <span class="collab-role">Creative Concept</span>
-        <span class="collab-role">Director</span>
         <span class="collab-role">Editing</span>
       </div>
       <div class="collab-link">Watch ↗</div>
     </a>
   </div>
 
-  <!-- Direction & Production -->
-  <div class="sub-head reveal" style="margin-top:64px;">
-    <span class="sub-label">Direction &amp; Production</span>
-  </div>
-  <div class="collab-grid reveal">
-    <a class="collab-card" href="https://www.instagram.com/reel/DPPDILxAdO7/?igsh=MXR6YWJ4cnZoeWlmOA%3D%3D" target="_blank" rel="noopener">
-      <div class="collab-artist">Nana Ouyang<br>× LV</div>
-      <div class="collab-roles">
-        <span class="collab-role">Director</span>
-        <span class="collab-role">Videographer</span>
-        <span class="collab-role">Editing</span>
-      </div>
-      <div class="collab-link">View Project ↗</div>
-    </a>
-    <a class="collab-card" href="https://www.instagram.com/reel/DWOfBwRiWTD/?igsh=cXJjbGM1ZnU2NHE5" target="_blank" rel="noopener">
-      <div class="collab-artist">Shuling<br>× DR.WU</div>
-      <div class="collab-roles">
-        <span class="collab-role">Director</span>
-        <span class="collab-role">Videographer</span>
-        <span class="collab-role">Editing</span>
-      </div>
-      <div class="collab-link">View Project ↗</div>
-    </a>
-    <a class="collab-card" href="https://www.instagram.com/reel/DOkZuQikx8B/?igsh=NHIzbWs1engxcDdn" target="_blank" rel="noopener">
-      <div class="collab-artist">Dizzy Dizzo<br>Music Video Content</div>
-      <div class="collab-roles">
-        <span class="collab-role">Director</span>
-        <span class="collab-role">Videographer</span>
-        <span class="collab-role">Editing</span>
-      </div>
-      <div class="collab-link">View Project ↗</div>
-    </a>
-    <a class="collab-card" href="https://www.instagram.com/p/CRWS0_whKzR/?igsh=MWhwM2NycDhkaG95Mg==" target="_blank" rel="noopener">
-      <div class="collab-artist">Nana Ouyang<br>Album «藏» Visual Digital Promo Series Visual</div>
-      <div class="collab-roles">
-        <span class="collab-role">Visual Direction</span>
-      </div>
-      <div class="collab-link">View Project ↗</div>
-    </a>
-  </div>
-
-  <!-- Editing -->
+    <!-- Editing -->
   <div class="sub-head reveal" style="margin-top:64px;">
     <span class="sub-label">Editing</span>
   </div>
   <div class="edit-list reveal">
-    <a class="edit-item" href="https://www.douyin.com/video/7620304929827100915" target="_blank" rel="noopener">
+    <a class="edit-item" href="https://www.instagram.com/reel/DBEFkebS4Lv/?igsh=MTZzN3JuY290NTU1Zg==" target="_blank" rel="noopener">
       <span class="edit-num">01</span>
-      <span class="edit-title">Didi Ouyang × MIU MIU</span>
-      <span class="edit-arrow">↗</span>
-    </a>
-    <a class="edit-item" href="https://www.douyin.com/video/6912760971618503950?previous_page=app_code_link" target="_blank" rel="noopener">
-      <span class="edit-num">02</span>
-      <span class="edit-title">Nana Ouyang 《太陽》Cover</span>
-      <span class="edit-arrow">↗</span>
-    </a>
-    <a class="edit-item" href="https://www.xiaohongshu.com/discovery/item/69b67d89000000001e00eeea?app_platform=ios&app_version=9.22.1&share_from_user_hidden=true&xsec_source=app_share&type=video&xsec_token=CB96OxHxgVLD2JsqXI5P1NJay2eEtSfdHi09Lloj2i1nQ=&author_share=1&xhsshare=CopyLink&shareRedId=N0czQUk7OkJLP0ZFO0ozN0hGOk03RjlL&apptime=1774340078&share_id=03afee6781b0480f927f66323f3a021d" target="_blank" rel="noopener">
-      <span class="edit-num">03</span>
-      <span class="edit-title">Didi Ouyang × F1 VLOG</span>
-      <span class="edit-arrow">↗</span>
-    </a>
-    <a class="edit-item" href="https://www.xiaohongshu.com/discovery/item/670bc71d0000000021000ff1?app_platform=ios&app_version=9.22.1&share_from_user_hidden=true&xsec_source=app_share&type=video&xsec_token=CB_ceCi-i1j2_W9c2mJsD1nASzA7PcAz0a2pMo9e4AqA0=&author_share=1&xhsshare=CopyLink&shareRedId=N0czQUk7OkJLP0ZFO0ozN0hGOk03RjlL&apptime=1774341094&share_id=3cb4c85e583a4c4c87340128eb2fcfc3" target="_blank" rel="noopener">
-      <span class="edit-num">04</span>
-      <span class="edit-title">Dizzy Dizzo Kitchen Series</span>
-      <span class="edit-arrow">↗</span>
-    </a>
-    <a class="edit-item" href="https://www.xiaohongshu.com/discovery/item/68cc1e49000000000e00d27f?app_platform=ios&app_version=9.22.1&share_from_user_hidden=true&xsec_source=app_share&type=video&xsec_token=CB36B1g1MEWYS10FaUASVaiHo_6tGQmAsYdgiG3iVY2P4=&author_share=1&xhsshare=CopyLink&shareRedId=N0czQUk7OkJLP0ZFO0ozN0hGOk03RjlL&apptime=1774340565&share_id=2ba37cb1faef4b758f83a6308f84efd6" target="_blank" rel="noopener">
-      <span class="edit-num">05</span>
-      <span class="edit-title">Didi Ouyang × MK VLOG</span>
-      <span class="edit-arrow">↗</span>
-    </a>
-    <a class="edit-item" href="https://www.xiaohongshu.com/discovery/item/69aec647000000001a029d64?app_platform=ios&app_version=9.22.1&share_from_user_hidden=true&xsec_source=app_share&type=video&xsec_token=CBQ5DuZ7HcIPS_tU0Etmx9CVJZQnfak_bPyoWW_Fck62M=&author_share=1&xhsshare=CopyLink&shareRedId=N0czQUk7OkJLP0ZFO0ozN0hGOk03RjlL&apptime=1774341056&share_id=478f67a6c2464e839fec2e614b03dfd7" target="_blank" rel="noopener">
-      <span class="edit-num">06</span>
-      <span class="edit-title">Dizzy Dizzo Kitchen Series</span>
+      <span class="edit-title">Dizzy Dizzo Kitchen × Big Dom</span>
       <span class="edit-arrow">↗</span>
     </a>
     <a class="edit-item" href="https://www.xiaohongshu.com/discovery/item/68c281ff000000001b030aee?app_platform=ios&app_version=9.22.1&share_from_user_hidden=true&xsec_source=app_share&type=video&xsec_token=CBlfH257wscTJt4ywqE5lVLX6TGblWo2OSlpsfxeAvC-M=&author_share=1&xhsshare=CopyLink&shareRedId=N0czQUk7OkJLP0ZFO0ozN0hGOk03RjlL&apptime=1774341449&share_id=8f4759c460a14c16b607fb76d33d236e" target="_blank" rel="noopener">
-      <span class="edit-num">07</span>
+      <span class="edit-num">02</span>
       <span class="edit-title">Didi Ouyang × Prada Unboxing VLOG</span>
       <span class="edit-arrow">↗</span>
     </a>
+    <a class="edit-item" href="https://www.instagram.com/reel/DGR-AkvyRx3/?igsh=bHoxNmtseXBmMnFn" target="_blank" rel="noopener">
+      <span class="edit-num">03</span>
+      <span class="edit-title">Dizzy Dizzo × Gentle Monster Unboxing VLOG</span>
+      <span class="edit-arrow">↗</span>
+    </a>
     <a class="edit-item" href="https://www.xiaohongshu.com/discovery/item/676d53e3000000000900d8b9?app_platform=ios&app_version=9.22.1&share_from_user_hidden=true&xsec_source=app_share&type=video&xsec_token=CB_gjKSVUtb2QOqngAnL1f7mZ8Z5C5FjsoU9D2az03RPI=&author_share=1&xhsshare=CopyLink&shareRedId=N0czQUk7OkJLP0ZFO0ozN0hGOk03RjlL&apptime=1774341643&share_id=9dfdb43e48a84b36b64127e707eae6fd" target="_blank" rel="noopener">
-      <span class="edit-num">08</span>
+      <span class="edit-num">04</span>
       <span class="edit-title">Nana Ouyang 《Love Letter》Album Teaser</span>
+      <span class="edit-arrow">↗</span>
+    </a>
+    <a class="edit-item" href="https://www.douyin.com/video/7620304929827100915" target="_blank" rel="noopener">
+      <span class="edit-num">05</span>
+      <span class="edit-title">Didi Ouyang × MIU MIU</span>
+      <span class="edit-arrow">↗</span>
+    </a>
+    <a class="edit-item" href="https://www.instagram.com/reel/DFPAFKQyv31/?igsh=dGZ6Y3hmOGNoaWNo" target="_blank" rel="noopener">
+      <span class="edit-num">06</span>
+      <span class="edit-title">Dizzy Dizzo Outfit Check</span>
+      <span class="edit-arrow">↗</span>
+    </a>
+    <a class="edit-item" href="https://www.instagram.com/reel/DEysI5GSRiG/?igsh=MTF3OWZ4ZXV6ZXFmNw==" target="_blank" rel="noopener">
+      <span class="edit-num">07</span>
+      <span class="edit-title">Dizzy Dizzo 80's OOTD</span>
+      <span class="edit-arrow">↗</span>
+    </a>
+    <a class="edit-item" href="https://www.douyin.com/video/6912760971618503950?previous_page=app_code_link" target="_blank" rel="noopener">
+      <span class="edit-num">08</span>
+      <span class="edit-title">Nana Ouyang 《太陽》Cover</span>
+      <span class="edit-arrow">↗</span>
+    </a>
+    <a class="edit-item" href="https://www.instagram.com/reel/DDwZqxeSvv9/?igsh=YnJ2cjVtYnkwZ3Rt" target="_blank" rel="noopener">
+      <span class="edit-num">09</span>
+      <span class="edit-title">Dizzy Dizzo YSL Daily VLOG</span>
       <span class="edit-arrow">↗</span>
     </a>
   </div>
